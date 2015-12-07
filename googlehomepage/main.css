@@ -1,0 +1,158 @@
+/*
+Current Problem: -bullet points
+-need to be on the right side of the screen but floating left
+need to be links
+need to be aligned
+*/
+
+
+body {
+    font-family: arial, sans-serif;
+    font-size: small;
+}
+
+#navigation {
+    float: right; 
+    margin-bottom: 10px;
+    margin-top: -20px;
+}
+
+#navigation li {
+    padding-left:15px;
+    
+}
+
+#navigation ul {
+    padding-right: 27px;
+}
+
+.nav li {
+    display: inline;
+    float: left;
+    padding: 8px;
+    color: #777;
+    
+}
+
+li a {
+    text-decoration: none;
+    color: #777;
+    
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
+li img:hover {
+    opacity: 40;
+}
+
+li img {
+    vertical-align: middle;
+    opacity: 0.5;
+}
+
+p {
+    text-align: center;
+}
+
+#logo img {
+    padding-top: 209px;
+    margin-left: 420px;
+
+}
+
+#logo p {
+    display:block;
+    text-align: center;
+}
+
+form p {
+    text-align: center;
+}
+
+.search {
+    font-family: arial, sans-serif;
+    color: rgb(34, 34, 34);
+    font-size: 13px;
+    margin: 0 auto;
+}
+
+.search input {
+    width: 550px; 
+    height: 38px;
+    border-radius: 0;
+}
+
+
+.buttons {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    width: 550px;
+    height: 20px;
+    text-align: center;
+}
+
+
+.buttons button {
+	background-color: rgb(242, 242, 242);
+	background-image: -webkit-linear-gradient(top, rgb(245, 245, 245), rgb(241, 241, 241));
+	background-size: auto;
+    width: 120px; height: 34px;
+	border: 1px solid rgb(242, 242, 242); 
+	border-radius: 2px;	
+	font-size: 13px;
+	font-weight: bold;	
+    font-family: arial, sans-serif;
+    text-align: center;
+	color: rgb(117, 117, 117);
+	margin: 8px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+
+.buttons button:hover{
+    color: rgb(34, 34, 34);
+    border-color: rgb(198, 198, 198);
+    background-color: (248, 248, 248);
+}
+
+#tip a {
+    color: #1a0dab;
+}
+
+#tip a:visited {
+    color: #609;
+    text-decoration: none;
+}
+
+#footer {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background-color: #f2f2f2;
+    height: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    left: 0px;
+}
+
+
+.foot li {
+    display: inline;
+    padding-right: 27px;
+    
+    padding-left: 10px;
+}
+
+.left {
+    float: left;
+    padding-left: 27px;
+}
+
+.right{
+    float: right;
+    padding-right: 27px;
+}
